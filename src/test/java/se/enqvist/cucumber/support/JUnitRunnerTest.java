@@ -10,18 +10,7 @@ import org.junit.runner.RunWith;
 		plugin = { "pretty", "html:target/cucumber", "json:target/cucumber/report.json" },
                 features = "src/test/resources/scenario",
                 glue = { "se.enqvist.cucumber.support" })
-public class JUnitRunner {
-
-    @Test
-    public void should(){
-        // given
-        System.out.println("xsdfsdf");
-        // when 
-        
-        // then
-     }
-    
-    
+public class JUnitRunnerTest {
 
 }
 
